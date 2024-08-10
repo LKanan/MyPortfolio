@@ -15,17 +15,17 @@
     <header class="flex justify-between py-8 item-center">
         <h1 class="text-3xl font-bold text-orange-100">LKanan.dev</h1>
         <nav class="hidden md:flex">
-            <ul class="flex gap-x-4 font-medium">
-                <a href="">
+            <ul class="flex gap-x-4 font-medium justify-center items-center">
+                <a href="#home">
                     <li>Home</li>
                 </a>
-                <a href="">
+                <a href="#about-me">
                     <li>About Me</li>
                 </a>
-                <a href="">
+                <a href="#portfolio">
                     <li>Portfolio</li>
                 </a>
-                <a href="" class="bg-orange-100 px-2 text-black rounded">
+                <a href="#contact" class="bg-orange-100 px-2 text-black rounded">
                     <li>Contact Me</li>
                 </a>
             </ul>
@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section name="Home"
+        <section name="Home" id="home"
             class="flex flex-col py-12 md:py-36 md:flex-row-reverse bg-gradient-to-r from-slate-900 to-slate-700 m-auto justify-center gap-x-48 rounded-ee-3xl">
             <div class="flex flex-col items-center">
                 <img src="images/PASSEPORT LUCIEN.jpg" alt="Photo Passeport de Lucien Kanani"
@@ -67,7 +67,7 @@
             </div>
         </section>
         <section name="About"
-            class="flex justify-center bg-gradient-to-l from-slate-900 to-slate-700 rounded-s-3xl pt-12">
+            class="flex justify-center bg-gradient-to-l from-slate-900 to-slate-700 rounded-s-3xl pt-12" id="about-me">
             <div name="Introduction" class="md:ml-24 p-2">
                 <h1 class="text-4xl md:text-7xl text-center font-bold">About Me</h1>
                 <h4 class="text-orange-100 text-xl mt-6">
@@ -271,7 +271,7 @@
                 </a>
             </div>
         </section>
-        <section name="Portfolio"
+        <section name="Portfolio" id="portfolio"
             class="pt-12 pb-16 bg-gradient-to-r from-slate-900 to-slate-700 m-auto rounded-e-3xl flex flex-col items-center">
             <p
                 class="text-4xl text-center bg-gradient-to-r from-orange-300 to-slate-600 bg-clip-text text-transparent font-bold mb-12">
@@ -351,7 +351,7 @@
             </div>
 
         </section>
-        <section name="contact" class="bg-gradient-to-l from-slate-900 to-slate-700 rounded-ss-3xl pt-12">
+        <section name="contact" id="contact" class="bg-gradient-to-l from-slate-900 to-slate-700 rounded-ss-3xl pt-12">
             <h1
                 class="text-4xl text-center bg-gradient-to-r from-orange-300 to-slate-600 bg-clip-text text-transparent font-bold mb-12">
                 Contact Me</h1>
@@ -394,7 +394,7 @@
                         <ul class="md:pl-8 flex flex-col gap-2">
                             <li class="flex items-center gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                                    class="text-2xl text-orange-200">
+                                    class="text-2xl text-orange-200" name="logo-whatsapp">
                                     <path fill="currentColor"
                                         d="M22 6.55a12.61 12.61 0 0 0-.1-1.29a4.29 4.29 0 0 0-.37-1.08a3.66 3.66 0 0 0-.71-1a3.91 3.91 0 0 0-1-.71a4.28 4.28 0 0 0-1.08-.36A10.21 10.21 0 0 0 17.46 2H6.55a12.61 12.61 0 0 0-1.29.1a4.29 4.29 0 0 0-1.08.37a3.66 3.66 0 0 0-1 .71a3.91 3.91 0 0 0-.71 1a4.28 4.28 0 0 0-.36 1.08A10.21 10.21 0 0 0 2 6.54v10.91a12.61 12.61 0 0 0 .1 1.29a4.29 4.29 0 0 0 .37 1.08a3.66 3.66 0 0 0 .71 1a3.91 3.91 0 0 0 1 .71a4.28 4.28 0 0 0 1.08.36a10.21 10.21 0 0 0 1.28.11h10.91a12.61 12.61 0 0 0 1.29-.1a4.29 4.29 0 0 0 1.08-.37a3.66 3.66 0 0 0 1-.71a3.91 3.91 0 0 0 .71-1a4.28 4.28 0 0 0 .36-1.08a10.21 10.21 0 0 0 .11-1.28V7.08zM12.23 19a7.12 7.12 0 0 1-3.43-.9l-3.8 1l1-3.72a7.11 7.11 0 0 1-1-3.58a7.18 7.18 0 1 1 7.23 7.2m0-13.13A6 6 0 0 0 7.18 15l.14.23l-.6 2.19L9 16.8l.22.13a6 6 0 0 0 3 .83a6 6 0 0 0 6-6a6 6 0 0 0-6-6Zm3.5 8.52a1.82 1.82 0 0 1-1.21.85a2.33 2.33 0 0 1-1.12-.07a8.9 8.9 0 0 1-1-.38a8 8 0 0 1-3.06-2.7a3.48 3.48 0 0 1-.73-1.85a2 2 0 0 1 .63-1.5a.65.65 0 0 1 .48-.22H10c.11 0 .26 0 .4.31s.51 1.24.56 1.33a.34.34 0 0 1 0 .31a1.14 1.14 0 0 1-.18.3c-.09.11-.19.24-.27.32s-.18.18-.08.36a5.56 5.56 0 0 0 1 1.24a5 5 0 0 0 1.44.89c.18.09.29.08.39 0s.45-.52.57-.7s.24-.15.4-.09s1.05.49 1.23.58s.29.13.34.21a1.56 1.56 0 0 1-.07.78Z" />
                                 </svg>
@@ -402,7 +402,7 @@
                             </li>
                             <li class="flex items-center gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                                    class="text-2xl text-orange-200">
+                                    class="text-2xl text-orange-200" name="logo-linkedin">
                                     <path fill="currentColor"
                                         d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2M8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12m12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z" />
                                 </svg>
@@ -463,46 +463,54 @@
         </section>
     </main>
 
-    <footer class="md:flex items-center justify-center border-t bg-gradient-to-t from-slate-900 to-slate-700 md:px-24 md:py-16">
+    <footer
+        class="md:flex items-center justify-center border-t bg-gradient-to-t from-slate-900 to-slate-700 md:px-24 md:py-16">
         <h1
             class="flex items-center justify-center text-3xl font-bold text-orange-100 h-24 pr-4  md:border-r border-orange-100">
             LKanan.dev</h1>
-            <div class="flex flex-col-reverse md:flex-row md:justify-between md:justify-center w-full">
-                <div class="md:pl-6 flex flex-col items-center md:items-start">
-                    <ul class="flex gap-x-4">
-                        <a href="">
-                            <li>Home</li>
-                        </a>
-                        <a href="">
-                            <li>About Me</li>
-                        </a>
-                        <a href="">
-                            <li>Portfolio</li>
-                        </a>
-                        <a href="">
-                            <li>Contact Me</li>
-                        </a>
-                    </ul>
-                    <p class="p-2">© 2024 - Ntwali Kanani Lucien</p>
-                </div>
-                <div>
-                    <div class="flex gap-4 text-3xl justify-center md:justify-end  text-orange-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" class="">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:justify-center w-full">
+            <div class="md:pl-6 flex flex-col items-center md:items-start">
+                <ul class="flex gap-x-4">
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about-me">
+                        <li>About Me</li>
+                    </a>
+                    <a href="#portfolio">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact Me</li>
+                    </a>
+                </ul>
+                <p class="p-2">© 2024 - Ntwali Kanani Lucien</p>
+            </div>
+            <div>
+                <div class="flex gap-4 text-3xl justify-center md:justify-end  text-orange-200">
+                    <a href="https://www.linkedin.com/in/lucien-kanani-819449272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
+                            name="logo-linkedin">
                             <path fill="currentColor"
                                 d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2M8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12m12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z" />
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    </a>
+                    <a href="https://wa.me/243821588344">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" name="logo-whatsapp">
                             <path fill="currentColor"
                                 d="M22 6.55a12.61 12.61 0 0 0-.1-1.29a4.29 4.29 0 0 0-.37-1.08a3.66 3.66 0 0 0-.71-1a3.91 3.91 0 0 0-1-.71a4.28 4.28 0 0 0-1.08-.36A10.21 10.21 0 0 0 17.46 2H6.55a12.61 12.61 0 0 0-1.29.1a4.29 4.29 0 0 0-1.08.37a3.66 3.66 0 0 0-1 .71a3.91 3.91 0 0 0-.71 1a4.28 4.28 0 0 0-.36 1.08A10.21 10.21 0 0 0 2 6.54v10.91a12.61 12.61 0 0 0 .1 1.29a4.29 4.29 0 0 0 .37 1.08a3.66 3.66 0 0 0 .71 1a3.91 3.91 0 0 0 1 .71a4.28 4.28 0 0 0 1.08.36a10.21 10.21 0 0 0 1.28.11h10.91a12.61 12.61 0 0 0 1.29-.1a4.29 4.29 0 0 0 1.08-.37a3.66 3.66 0 0 0 1-.71a3.91 3.91 0 0 0 .71-1a4.28 4.28 0 0 0 .36-1.08a10.21 10.21 0 0 0 .11-1.28V7.08zM12.23 19a7.12 7.12 0 0 1-3.43-.9l-3.8 1l1-3.72a7.11 7.11 0 0 1-1-3.58a7.18 7.18 0 1 1 7.23 7.2m0-13.13A6 6 0 0 0 7.18 15l.14.23l-.6 2.19L9 16.8l.22.13a6 6 0 0 0 3 .83a6 6 0 0 0 6-6a6 6 0 0 0-6-6Zm3.5 8.52a1.82 1.82 0 0 1-1.21.85a2.33 2.33 0 0 1-1.12-.07a8.9 8.9 0 0 1-1-.38a8 8 0 0 1-3.06-2.7a3.48 3.48 0 0 1-.73-1.85a2 2 0 0 1 .63-1.5a.65.65 0 0 1 .48-.22H10c.11 0 .26 0 .4.31s.51 1.24.56 1.33a.34.34 0 0 1 0 .31a1.14 1.14 0 0 1-.18.3c-.09.11-.19.24-.27.32s-.18.18-.08.36a5.56 5.56 0 0 0 1 1.24a5 5 0 0 0 1.44.89c.18.09.29.08.39 0s.45-.52.57-.7s.24-.15.4-.09s1.05.49 1.23.58s.29.13.34.21a1.56 1.56 0 0 1-.07.78Z" />
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024" name="logo-facebook">
                             <path fill="currentColor"
                                 d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32m-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6c44.2 0 82.1 3.3 93.2 4.8v107.9z" />
                         </svg>
-                    </div>
-                    <p class="pt-2 pb-2 md:pb-0 text-center md:text-right">lucienkanani@gmail.com</p>
+                    </a>
                 </div>
+                <p class="pt-2 pb-2 md:pb-0 text-center md:text-right">lucienkanani@gmail.com</p>
             </div>
+        </div>
 
     </footer>
 </body>
