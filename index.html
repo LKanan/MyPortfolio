@@ -16,16 +16,16 @@
         <h1 class="text-3xl font-bold text-orange-100">LKanan.dev</h1>
         <nav class="hidden md:flex">
             <ul class="flex gap-x-4 font-medium justify-center items-center">
-                <a href="#home">
+                <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#home">
                     <li>Home</li>
                 </a>
-                <a href="#about-me">
+                <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#about-me">
                     <li>About Me</li>
                 </a>
-                <a href="#portfolio">
+                <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#portfolio">
                     <li>Portfolio</li>
                 </a>
-                <a href="#contact" class="bg-orange-100 px-2 text-black rounded">
+                <a href="#contact" class="bg-orange-100 px-2 text-black rounded hover:scale-105 duration-200">
                     <li>Contact Me</li>
                 </a>
             </ul>
@@ -62,7 +62,7 @@
                 <p class="mt-4 text-sm">
                     Skills: Full Stack Developement with Django for the backend, Tailwind CSS for the frontend,
                     tasks automation with Python scripts, prototyping project with Arduino. <br><br>
-                    Learn More <a href="" class="text-orange-100">About Me</a>
+                    Learn More <a href="" class="text-orange-100 hover:border-b-2 hover:border-orange-100 duration-75">About Me</a>
                 </p>
             </div>
         </section>
@@ -234,41 +234,31 @@
                     </div>
                 </div>
             </div>
-            <div name="side-navbar"
-                class="hidden text-3xl md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg h-2/3 mt-48">
-                <a href="#home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
-                        <path fill="currentColor"
-                            d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2M568 868H456V664h112zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7l23.1 23.1L882 542.3z" />
-                    </svg>
-                </a>
-                <a href="#about-me">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none">
-                            <path fill="currentColor"
-                                d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2" opacity="0.16" />
-                            <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
-                                d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
-                            <circle cx="12" cy="7" r="3" stroke="currentColor" stroke-width="2" />
-                        </g>
-                    </svg>
-                </a>
-                <a href="#portfolio">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
-                        <path fill="currentColor"
-                            d="M16 18H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2M6 6v10h10V6zm20 6v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m0 12v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m-10 2v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2" />
-                    </svg>
-                </a>
-                <a href="#contact">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                        <g fill="none">
-                            <path
-                                d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
-                            <path fill="currentColor"
-                                d="M6.857 2.445C8.12 3.366 9.076 4.66 9.89 5.849l.638.938A1.504 1.504 0 0 1 10.35 8.7l-1.356 1.356l.143.304c.35.709.954 1.73 1.863 2.64a10 10 0 0 0 2.104 1.58l.367.197l.327.162l.146.067l1.355-1.356a1.5 1.5 0 0 1 1.918-.171l1.014.703c1.152.81 2.355 1.733 3.29 2.931a1.47 1.47 0 0 1 .189 1.485c-.837 1.953-2.955 3.616-5.158 3.534l-.3-.016l-.233-.02l-.258-.03l-.281-.038l-.305-.051l-.326-.064l-.346-.077l-.366-.094l-.385-.11l-.402-.13c-1.846-.626-4.189-1.856-6.593-4.26s-3.633-4.746-4.259-6.592l-.13-.402l-.11-.385l-.094-.366l-.078-.346a12 12 0 0 1-.063-.326l-.05-.305l-.04-.281l-.029-.258l-.02-.233l-.016-.3c-.081-2.196 1.6-4.329 3.544-5.162a1.47 1.47 0 0 1 1.445.159M5.93 4.253c-1.072.56-2.11 1.84-2.063 3.121l.02.328l.022.205l.029.23l.04.253l.051.277l.065.298l.08.32l.096.339l.114.358q.063.183.134.375l.154.392l.176.407c.628 1.382 1.652 3 3.325 4.672c1.672 1.672 3.29 2.697 4.672 3.325l.407.176l.392.154q.192.072.375.134l.358.114l.34.096l.319.08l.298.065l.277.051l.254.04l.23.03l.204.02l.328.02c1.264.047 2.554-.985 3.112-2.043c-.712-.835-1.596-1.52-2.571-2.21l-.748-.521l-.19.199l-.406.443l-.215.226c-.586.597-1.27 1.104-2.09.773l-.226-.095l-.276-.124l-.154-.073l-.338-.169l-.371-.2a12 12 0 0 1-2.567-1.925a12 12 0 0 1-1.925-2.567l-.2-.37l-.17-.339l-.196-.43L7 10.48c-.311-.769.117-1.418.664-1.98l.224-.22l.557-.513l.2-.19l-.473-.693c-.703-1.02-1.39-1.94-2.243-2.632Zm9.063 1.787l.116.013a3.5 3.5 0 0 1 2.858 2.96a1 1 0 0 1-1.958.393l-.023-.115a1.5 1.5 0 0 0-1.07-1.233l-.155-.035a1 1 0 0 1 .232-1.983M15 3a6 6 0 0 1 6 6a1 1 0 0 1-1.993.117L19 9a4 4 0 0 0-3.738-3.991L15 5a1 1 0 1 1 0-2" />
-                        </g>
-                    </svg>
-                </a>
+            <div name="side-navbar" class="flex justify-center items-center">
+                <div
+                    class="hidden md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg">
+                    <a href="#home">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[3] hover:scale-110 duration:200">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+                          
+                    </a>
+                    <a href="#about-me">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                          </svg>
+                    </a>
+                    <a href="#portfolio">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                          </svg>                      
+                    </a>
+                    <a href="#contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                          </svg>
+                    </a>
+                </div>
             </div>
         </section>
         <section name="Portfolio" id="portfolio"
@@ -299,45 +289,33 @@
                             <li class="p-24 border border-orange-100"></li>
                         </ul>
                     </div>
-
-                    <div name="side-navbar"
-                        class="hidden text-3xl md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg h-2/3 m-auto">
-                        <a href="#home">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
-                                <path fill="currentColor"
-                                    d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2M568 868H456V664h112zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7l23.1 23.1L882 542.3z" />
-                            </svg>
-                        </a>
-                        <a href="#about-me">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none">
-                                    <path fill="currentColor"
-                                        d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2"
-                                        opacity="0.16" />
-                                    <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
-                                    <circle cx="12" cy="7" r="3" stroke="currentColor" stroke-width="2" />
-                                </g>
-                            </svg>
-                        </a>
-                        <a href="#portfolio">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
-                                <path fill="currentColor"
-                                    d="M16 18H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2M6 6v10h10V6zm20 6v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m0 12v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m-10 2v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2" />
-                            </svg>
-                        </a>
-                        <a href="#contact">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                <g fill="none">
-                                    <path
-                                        d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
-                                    <path fill="currentColor"
-                                        d="M6.857 2.445C8.12 3.366 9.076 4.66 9.89 5.849l.638.938A1.504 1.504 0 0 1 10.35 8.7l-1.356 1.356l.143.304c.35.709.954 1.73 1.863 2.64a10 10 0 0 0 2.104 1.58l.367.197l.327.162l.146.067l1.355-1.356a1.5 1.5 0 0 1 1.918-.171l1.014.703c1.152.81 2.355 1.733 3.29 2.931a1.47 1.47 0 0 1 .189 1.485c-.837 1.953-2.955 3.616-5.158 3.534l-.3-.016l-.233-.02l-.258-.03l-.281-.038l-.305-.051l-.326-.064l-.346-.077l-.366-.094l-.385-.11l-.402-.13c-1.846-.626-4.189-1.856-6.593-4.26s-3.633-4.746-4.259-6.592l-.13-.402l-.11-.385l-.094-.366l-.078-.346a12 12 0 0 1-.063-.326l-.05-.305l-.04-.281l-.029-.258l-.02-.233l-.016-.3c-.081-2.196 1.6-4.329 3.544-5.162a1.47 1.47 0 0 1 1.445.159M5.93 4.253c-1.072.56-2.11 1.84-2.063 3.121l.02.328l.022.205l.029.23l.04.253l.051.277l.065.298l.08.32l.096.339l.114.358q.063.183.134.375l.154.392l.176.407c.628 1.382 1.652 3 3.325 4.672c1.672 1.672 3.29 2.697 4.672 3.325l.407.176l.392.154q.192.072.375.134l.358.114l.34.096l.319.08l.298.065l.277.051l.254.04l.23.03l.204.02l.328.02c1.264.047 2.554-.985 3.112-2.043c-.712-.835-1.596-1.52-2.571-2.21l-.748-.521l-.19.199l-.406.443l-.215.226c-.586.597-1.27 1.104-2.09.773l-.226-.095l-.276-.124l-.154-.073l-.338-.169l-.371-.2a12 12 0 0 1-2.567-1.925a12 12 0 0 1-1.925-2.567l-.2-.37l-.17-.339l-.196-.43L7 10.48c-.311-.769.117-1.418.664-1.98l.224-.22l.557-.513l.2-.19l-.473-.693c-.703-1.02-1.39-1.94-2.243-2.632Zm9.063 1.787l.116.013a3.5 3.5 0 0 1 2.858 2.96a1 1 0 0 1-1.958.393l-.023-.115a1.5 1.5 0 0 0-1.07-1.233l-.155-.035a1 1 0 0 1 .232-1.983M15 3a6 6 0 0 1 6 6a1 1 0 0 1-1.993.117L19 9a4 4 0 0 0-3.738-3.991L15 5a1 1 0 1 1 0-2" />
-                                </g>
-                            </svg>
-                        </a>
+                    <div name="side-navbar" class="flex justify-center items-center">
+                        <div
+                            class="hidden text-3xl md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg">
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[3] hover:scale-110 duration:200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                </svg>
+                                  
+                            </a>
+                            <a href="#about-me">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                                  </svg>
+                            </a>
+                            <a href="#portfolio">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                                  </svg>                      
+                            </a>
+                            <a href="#contact">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                                  </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                    </div>
 
                 <div name="carousselle" class="hidden md:flex justify-center items-center gap-2 mt-8 ml-96 pl-12">
                     <span class="w-10 border-b border-b-orange-100"></span>
@@ -398,7 +376,7 @@
                                     <path fill="currentColor"
                                         d="M22 6.55a12.61 12.61 0 0 0-.1-1.29a4.29 4.29 0 0 0-.37-1.08a3.66 3.66 0 0 0-.71-1a3.91 3.91 0 0 0-1-.71a4.28 4.28 0 0 0-1.08-.36A10.21 10.21 0 0 0 17.46 2H6.55a12.61 12.61 0 0 0-1.29.1a4.29 4.29 0 0 0-1.08.37a3.66 3.66 0 0 0-1 .71a3.91 3.91 0 0 0-.71 1a4.28 4.28 0 0 0-.36 1.08A10.21 10.21 0 0 0 2 6.54v10.91a12.61 12.61 0 0 0 .1 1.29a4.29 4.29 0 0 0 .37 1.08a3.66 3.66 0 0 0 .71 1a3.91 3.91 0 0 0 1 .71a4.28 4.28 0 0 0 1.08.36a10.21 10.21 0 0 0 1.28.11h10.91a12.61 12.61 0 0 0 1.29-.1a4.29 4.29 0 0 0 1.08-.37a3.66 3.66 0 0 0 1-.71a3.91 3.91 0 0 0 .71-1a4.28 4.28 0 0 0 .36-1.08a10.21 10.21 0 0 0 .11-1.28V7.08zM12.23 19a7.12 7.12 0 0 1-3.43-.9l-3.8 1l1-3.72a7.11 7.11 0 0 1-1-3.58a7.18 7.18 0 1 1 7.23 7.2m0-13.13A6 6 0 0 0 7.18 15l.14.23l-.6 2.19L9 16.8l.22.13a6 6 0 0 0 3 .83a6 6 0 0 0 6-6a6 6 0 0 0-6-6Zm3.5 8.52a1.82 1.82 0 0 1-1.21.85a2.33 2.33 0 0 1-1.12-.07a8.9 8.9 0 0 1-1-.38a8 8 0 0 1-3.06-2.7a3.48 3.48 0 0 1-.73-1.85a2 2 0 0 1 .63-1.5a.65.65 0 0 1 .48-.22H10c.11 0 .26 0 .4.31s.51 1.24.56 1.33a.34.34 0 0 1 0 .31a1.14 1.14 0 0 1-.18.3c-.09.11-.19.24-.27.32s-.18.18-.08.36a5.56 5.56 0 0 0 1 1.24a5 5 0 0 0 1.44.89c.18.09.29.08.39 0s.45-.52.57-.7s.24-.15.4-.09s1.05.49 1.23.58s.29.13.34.21a1.56 1.56 0 0 1-.07.78Z" />
                                 </svg>
-                                <a href="https://wa.me/243821588344" class="underline decoration-dotted">Message me</a>
+                                <a href="https://wa.me/243821588344" class="underline decoration-dotted hover:text-orange-100 duration:200">Message me</a>
                             </li>
                             <li class="flex items-center gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
@@ -407,57 +385,46 @@
                                         d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2M8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12m12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z" />
                                 </svg>
                                 <a href="https://www.linkedin.com/in/lucien-kanani-819449272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                    class="underline decoration-dotted">Lucien Kanani</a>
+                                    class="underline decoration-dotted hover:text-orange-100 duration:200">Lucien Kanani</a>
                             </li>
                         </ul>
                     </div>
                     <form action="" class="md:w-1/2 p-8 md:border-l border-orange-100 grid grid-rows-6 gap-6">
                         <input type="text" placeholder="Name"
-                            class="border border-orange-100 bg-transparent rounded-xl">
+                            class="border border-orange-100 bg-transparent rounded-xl hover:border-x-2 hover:border-blue-400 duration-150">
                         <input type="email" placeholder="Email"
-                            class="border border-orange-100 bg-transparent rounded-xl">
+                            class="border border-orange-100 bg-transparent rounded-xl hover:border-blue-400 duration-150">
                         <textarea name="" id="" placeholder="Message"
-                            class="border border-orange-100 bg-transparent rounded-xl row-span-3"></textarea>
+                            class="border border-orange-100 bg-transparent rounded-xl row-span-3 hover:border-blue-400 duration-150"></textarea>
                         <button
-                            class="bg-orange-100 text-black font-bold rounded-3xl px-16 w-max place-self-center p-2">Send</button>
+                            class="bg-orange-100 text-black font-bold rounded-3xl px-16 w-max place-self-center p-2 hover:scale-105 duration-200">Send</button>
                     </form>
                 </div>
-                <div name="side-navbar"
-                    class="hidden text-3xl md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg h-2/3 m-auto ml-6">
-                    <a href="#home">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
-                            <path fill="currentColor"
-                                d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2M568 868H456V664h112zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7l23.1 23.1L882 542.3z" />
-                        </svg>
-                    </a>
-                    <a href="#about-me">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none">
-                                <path fill="currentColor"
-                                    d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2"
-                                    opacity="0.16" />
-                                <path stroke="currentColor" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
-                                <circle cx="12" cy="7" r="3" stroke="currentColor" stroke-width="2" />
-                            </g>
-                        </svg>
-                    </a>
-                    <a href="#portfolio">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
-                            <path fill="currentColor"
-                                d="M16 18H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2M6 6v10h10V6zm20 6v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m0 12v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2m-10 2v4h-4v-4zm0-2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2" />
-                        </svg>
-                    </a>
-                    <a href="#contact">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                            <g fill="none">
-                                <path
-                                    d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
-                                <path fill="currentColor"
-                                    d="M6.857 2.445C8.12 3.366 9.076 4.66 9.89 5.849l.638.938A1.504 1.504 0 0 1 10.35 8.7l-1.356 1.356l.143.304c.35.709.954 1.73 1.863 2.64a10 10 0 0 0 2.104 1.58l.367.197l.327.162l.146.067l1.355-1.356a1.5 1.5 0 0 1 1.918-.171l1.014.703c1.152.81 2.355 1.733 3.29 2.931a1.47 1.47 0 0 1 .189 1.485c-.837 1.953-2.955 3.616-5.158 3.534l-.3-.016l-.233-.02l-.258-.03l-.281-.038l-.305-.051l-.326-.064l-.346-.077l-.366-.094l-.385-.11l-.402-.13c-1.846-.626-4.189-1.856-6.593-4.26s-3.633-4.746-4.259-6.592l-.13-.402l-.11-.385l-.094-.366l-.078-.346a12 12 0 0 1-.063-.326l-.05-.305l-.04-.281l-.029-.258l-.02-.233l-.016-.3c-.081-2.196 1.6-4.329 3.544-5.162a1.47 1.47 0 0 1 1.445.159M5.93 4.253c-1.072.56-2.11 1.84-2.063 3.121l.02.328l.022.205l.029.23l.04.253l.051.277l.065.298l.08.32l.096.339l.114.358q.063.183.134.375l.154.392l.176.407c.628 1.382 1.652 3 3.325 4.672c1.672 1.672 3.29 2.697 4.672 3.325l.407.176l.392.154q.192.072.375.134l.358.114l.34.096l.319.08l.298.065l.277.051l.254.04l.23.03l.204.02l.328.02c1.264.047 2.554-.985 3.112-2.043c-.712-.835-1.596-1.52-2.571-2.21l-.748-.521l-.19.199l-.406.443l-.215.226c-.586.597-1.27 1.104-2.09.773l-.226-.095l-.276-.124l-.154-.073l-.338-.169l-.371-.2a12 12 0 0 1-2.567-1.925a12 12 0 0 1-1.925-2.567l-.2-.37l-.17-.339l-.196-.43L7 10.48c-.311-.769.117-1.418.664-1.98l.224-.22l.557-.513l.2-.19l-.473-.693c-.703-1.02-1.39-1.94-2.243-2.632Zm9.063 1.787l.116.013a3.5 3.5 0 0 1 2.858 2.96a1 1 0 0 1-1.958.393l-.023-.115a1.5 1.5 0 0 0-1.07-1.233l-.155-.035a1 1 0 0 1 .232-1.983M15 3a6 6 0 0 1 6 6a1 1 0 0 1-1.993.117L19 9a4 4 0 0 0-3.738-3.991L15 5a1 1 0 1 1 0-2" />
-                            </g>
-                        </svg>
-                    </a>
+                <div name="side-navbar" class="flex justify-center items-center">
+                    <div
+                        class="hidden text-3xl md:flex flex-col gap-y-4 mx-6 bg-gradient-to-b from-orange-200 to-slate-900 p-2 rounded-lg">
+                        <a href="#home">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[3] hover:scale-110 duration:200">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>
+                              
+                        </a>
+                        <a href="#about-me">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                              </svg>
+                        </a>
+                        <a href="#portfolio">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
+                              </svg>                      
+                        </a>
+                        <a href="#contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 hover:stroke-[2] hover:scale-110 duration:200">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                              </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -471,16 +438,16 @@
         <div class="flex flex-col-reverse md:flex-row md:justify-between md:justify-center w-full">
             <div class="md:pl-6 flex flex-col items-center md:items-start">
                 <ul class="flex gap-x-4">
-                    <a href="#home">
+                    <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#home">
                         <li>Home</li>
                     </a>
-                    <a href="#about-me">
+                    <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#about-me">
                         <li>About Me</li>
                     </a>
-                    <a href="#portfolio">
+                    <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#portfolio">
                         <li>Portfolio</li>
                     </a>
-                    <a href="#contact">
+                    <a class="hover:border-b-2 hover:border-orange-100 duration-75" href="#contact">
                         <li>Contact Me</li>
                     </a>
                 </ul>
@@ -488,20 +455,20 @@
             </div>
             <div>
                 <div class="flex gap-4 text-3xl justify-center md:justify-end  text-orange-200">
-                    <a href="https://www.linkedin.com/in/lucien-kanani-819449272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <a href="https://www.linkedin.com/in/lucien-kanani-819449272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hover:scale-110">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
                             name="logo-linkedin">
                             <path fill="currentColor"
                                 d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2M8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12m12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z" />
                         </svg>
                     </a>
-                    <a href="https://wa.me/243821588344">
+                    <a href="https://wa.me/243821588344" class="hover:scale-110">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" name="logo-whatsapp">
                             <path fill="currentColor"
                                 d="M22 6.55a12.61 12.61 0 0 0-.1-1.29a4.29 4.29 0 0 0-.37-1.08a3.66 3.66 0 0 0-.71-1a3.91 3.91 0 0 0-1-.71a4.28 4.28 0 0 0-1.08-.36A10.21 10.21 0 0 0 17.46 2H6.55a12.61 12.61 0 0 0-1.29.1a4.29 4.29 0 0 0-1.08.37a3.66 3.66 0 0 0-1 .71a3.91 3.91 0 0 0-.71 1a4.28 4.28 0 0 0-.36 1.08A10.21 10.21 0 0 0 2 6.54v10.91a12.61 12.61 0 0 0 .1 1.29a4.29 4.29 0 0 0 .37 1.08a3.66 3.66 0 0 0 .71 1a3.91 3.91 0 0 0 1 .71a4.28 4.28 0 0 0 1.08.36a10.21 10.21 0 0 0 1.28.11h10.91a12.61 12.61 0 0 0 1.29-.1a4.29 4.29 0 0 0 1.08-.37a3.66 3.66 0 0 0 1-.71a3.91 3.91 0 0 0 .71-1a4.28 4.28 0 0 0 .36-1.08a10.21 10.21 0 0 0 .11-1.28V7.08zM12.23 19a7.12 7.12 0 0 1-3.43-.9l-3.8 1l1-3.72a7.11 7.11 0 0 1-1-3.58a7.18 7.18 0 1 1 7.23 7.2m0-13.13A6 6 0 0 0 7.18 15l.14.23l-.6 2.19L9 16.8l.22.13a6 6 0 0 0 3 .83a6 6 0 0 0 6-6a6 6 0 0 0-6-6Zm3.5 8.52a1.82 1.82 0 0 1-1.21.85a2.33 2.33 0 0 1-1.12-.07a8.9 8.9 0 0 1-1-.38a8 8 0 0 1-3.06-2.7a3.48 3.48 0 0 1-.73-1.85a2 2 0 0 1 .63-1.5a.65.65 0 0 1 .48-.22H10c.11 0 .26 0 .4.31s.51 1.24.56 1.33a.34.34 0 0 1 0 .31a1.14 1.14 0 0 1-.18.3c-.09.11-.19.24-.27.32s-.18.18-.08.36a5.56 5.56 0 0 0 1 1.24a5 5 0 0 0 1.44.89c.18.09.29.08.39 0s.45-.52.57-.7s.24-.15.4-.09s1.05.49 1.23.58s.29.13.34.21a1.56 1.56 0 0 1-.07.78Z" />
                         </svg>
                     </a>
-                    <a href="">
+                    <a href="" class="hover:scale-110">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024" name="logo-facebook">
                             <path fill="currentColor"
                                 d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32m-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6c44.2 0 82.1 3.3 93.2 4.8v107.9z" />
