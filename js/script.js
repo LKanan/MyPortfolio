@@ -26,13 +26,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', () => {
         let current = '';
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
-                current = section.getAttribute('id');
-            }
-        });
+        const scrollY = window.scrollY;
+        
+        // Safety check for bottom of page
+        if ((window.innerHeight + scrollY) >= document.body.scrollHeight - 10) {
+           if (sections.length > 0) {
+               current = sections[sections.length - 1].getAttribute('id');
+           }
+        } else {
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                // Trigger when 1/3 of the section is visible or when the top of section is near center
+                if (scrollY >= (sectionTop - sectionHeight / 3)) {
+                    current = section.getAttribute('id');
+                }
+            });
+        }
 
         navLinks.forEach(link => {
             link.classList.remove('scale-125', 'text-orange-500'); // Remove active styles
