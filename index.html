@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -429,28 +429,7 @@
         </div>
 
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const themeToggleBtn = document.getElementById('theme-toggle');
-            const html = document.documentElement;
-
-            // Initial Check
-            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                html.classList.add('dark');
-            } else {
-                html.classList.remove('dark');
-            }
-
-            themeToggleBtn.addEventListener('click', () => {
-                html.classList.toggle('dark');
-                if (html.classList.contains('dark')) {
-                    localStorage.theme = 'dark';
-                } else {
-                    localStorage.theme = 'light';
-                }
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 
     <!-- Fixed Side Navbar -->
     <div id="side-navbar" class="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden md:flex flex-col gap-y-6 bg-white/30 dark:bg-slate-900/30 backdrop-blur-md p-4 rounded-full shadow-xl border border-white/20 dark:border-slate-700 transition-colors duration-900">
